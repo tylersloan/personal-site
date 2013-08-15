@@ -1,8 +1,68 @@
 ---
-title: Welcome to Middleman
+title: Tyler Sloan | Home
 ---
 
-.welcome
-  h1 Middleman is Watching
-  p.doc
-    == link_to "Read Online Documentation", "http://middlemanapp.com/"
+.header
+  .logo
+    h1 Tyler Sloan
+  .navigation
+    ul
+      li
+        a href="#0" About
+      li
+        a href="#0" Work
+      li
+        a href="#0" Contact
+.line-long
+
+.wrapper
+  
+  .hero
+    h2
+      | <em>Lorem ipsum dolor sit amet,</em> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  .line-short
+
+  .container
+
+    h3 Notable Work
+
+    .wmuSlider
+
+      .wmuSliderWrapper
+
+        article
+          img src="images/work-placeholder.jpg"
+
+        article
+          img src="images/work-placeholder.jpg"
+
+    .line-short
+    
+    h3 More Case Studies
+
+    ul.work-examples
+      
+      li
+        img src="http://placehold.it/217x217"
+      
+      li
+        img src="http://placehold.it/217x217"
+      
+      li
+        img src="http://placehold.it/217x217"
+      
+      li
+        img src="http://placehold.it/217x217"
+      
+      li
+        img src="http://placehold.it/217x217"
+
+javascript:
+  var options = {
+    navigationControl: false,
+    animation: 'slide',
+    slideshow: true,
+    slideshowSpeed: 8000
+  }
+  $(".wmuSlider").wmuSlider(options);

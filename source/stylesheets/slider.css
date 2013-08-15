@@ -1,0 +1,43 @@
+.wmuSlider,
+        .wmuGallery {
+            margin-bottom: 20px;
+        }
+
+        /* mwuSlider */
+        .wmuSlider {
+            position: relative;
+            overflow: hidden;
+            height: 468px;
+        }
+        .wmuSlider .wmuSliderWrapper {
+            /*display: none;*/
+        }
+        .wmuSlider .wmuSliderWrapper article {
+            position: relative;
+            height: 468px;
+        }
+
+        
+        .wmuSliderPagination {
+            z-index: 1000;
+            position: absolute;
+            left: 47%;
+            bottom: -17px;
+        }
+        .wmuSliderPagination li {
+            float: left;
+            margin: 0 5px 0 0;
+            list-style-type: none;
+        }
+        .wmuSliderPagination a {
+            display: block;
+            text-indent: -9999px;
+            width: 10px;
+            height: 10px;
+            border-radius: 5px;
+            background-color: black;
+        }
+        .wmuSliderPagination a.wmuActive {
+            background-position: -10px -80px;
+            background-color: white;
+        }
