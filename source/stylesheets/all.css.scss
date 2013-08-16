@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-  background: url("/images/background.png");
+  background: whitesmoke;
   text-align: center;
   font-family: sans-serif;
   font-size: 18px;
@@ -16,7 +16,7 @@ h2 {
   padding: 0;
   color: white;
   font-weight: normal;
-  font-size: 2.5em;
+  font-size: 2.25em;
 }
 
 h3 {
@@ -27,13 +27,35 @@ h3 {
   border: 3px solid black;
 }
 
+h4 {
+  font-size: 2.8em;
+  font-weight: 400;
+  color: white;
+}
+
 em {
   font-style: italic;
-  font-size: 2.65rem;
+  font-size: 1.75rem;
 }
 
 li {
   list-style: none;
+}
+
+p {
+  font: {
+    size: 1em;
+    weight: normal;
+  }
+  color: white;
+  line-height: 1.4;
+}
+
+a, a:visited {
+  .icon-link {
+    text-decoration: none;
+    color: darkgrey;
+  }
 }
 
 .line-long, .line-short {
@@ -47,10 +69,10 @@ li {
 .line-long {
     width: 90%;
     margin: 0 5%;
-    margin-top: -18px;
+    margin-top: 23px;
     z-index: 100;
   }
-.line-short { width: 20%; margin: 1% auto 5% auto; }
+.line-short { width: 20%; margin: 10% auto 1% auto; }
 
 .header {
   -webkit-box-sizing: border-box;
@@ -66,15 +88,13 @@ li {
 
 .logo {
   float: left;
-  margin-top: -7px;
-  padding: 0px 20px 0px 0px;
-  background: white;
+  margin: -6px 0 0 0;
+  padding: 0px;
 }
 
 .navigation {
   float: right;
   padding: 4px 0;
-  background: white;
 
   li {
     display: inline-block;
@@ -85,50 +105,160 @@ li {
   li:first-child {
     margin-left: -14px;
   }
+
+  a, a:visited {
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: 5px solid rgba(255,255,255,0);
+    transition: all 250ms ease;
+  }
+
+  a:hover, a:focus {
+    border-bottom: 5px solid #439FBD;
+  }
 }
 
 .hero {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
-  height: 696px;
-  background: url("/images/plains.JPG");
-  background-position: 10% 58%;
+  margin: 3% 0 0 0;
+  padding: 5%;
   overflow: hidden;
   text-align: left;
 
   img {
-    align: bottom middle;
-    width: 100%;
+    -webkit-user-select: none;
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin: 0 2% 0 0;
   }
+}
 
-  h2 {
-    width: 66%;
-    padding: 5%;
+.adjectives {
+  float: right;
+  width: 48%;
+  margin: 43px 0 0 0;
+  padding: 0;
+
+  h4 {
+    margin: 0;
+    padding: 2% 0;
+    font: {
+      weight: bold;
+    }
+    color: #17171A;
   }
 }
 
 .container {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   max-width: 1440px;
-  width: 90%;
-  margin: 0 auto 5% auto;
-  padding: 0;
+  width: 100%;
+  margin: 0;
+  padding: 5%;
+  background-color: #439FBD;
 }
 
-ul.work-examples {
+.other-clients, .other-clients ul {
+  width: 100%;
   margin: 0;
   padding: 0;
+
+  li {
+    display: inline-block;
+    max-width: 217px;
+    max-height: 217px;
+    margin: 0 3.256% 5% 0;
+    padding: 0;
+    overflow: hidden;
+    vertical-align: top;
+
+    h5 {
+      margin: 0;
+      padding: 20% 0 3% 0;
+      line-height: 1.5;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      opacity: .8;
+      transition: all 250ms ease;
+    }
+  }
+
+  li:hover {
+    img { transform: scale(1.2); opacity: 1;}
+  }
 }
 
-ul.work-examples li {
+.interested {
+  width: 100%;
+  margin: 0;
+  padding: 6% 0;
+  background-color: white;
+  border: 3px solid #444;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #444;
+}
+
+article img.computer-screen {
+  float: left;
+  width: 70%;
+  margin: 23px 0 0 -93px;
+  padding: 0;
+}
+
+.project-details {
   display: inline-block;
-  margin: 0 4% 1% 0;
+  width: 40%;
+  margin: 2% 0 0 -40px;
+  padding: 0;
+  text-align: left;
+
+  h2 { display: inline-block;}
+}
+
+article ul {
+  display: inline-block;
+  width: 45%;
+  margin: 0 3% 0 0;
+  padding: 0;
+  vertical-align: top;
+
+  li {
+    display: inline-block;
+    width: 100%;
+    padding: 5% 0;
+    border-bottom: 1px dotted white;
+  }
+}
+
+.icon-chevron-sign-right {
+  display: block;
+  width: 10px;
+  margin-right: 5px;
+}
+
+.icon-long-arrow-right {
+  margin-left: 15px;
+  font-size: 36px;
+  color: orange;
+}
+
+#example-1 iframe {
+  position: absolute; top: 63px; left: 38px;
+}
+
+footer {
+  width: 100%;
+  height: 350px;
+  background-color: black;
   overflow: hidden;
-}
-
-ul.work-examples li:hover {
-  
-  img { transform: scale(1.3); }
-}
-
-ul.work-examples li:nth-child(5n) {
-  margin-right: 0;
 }
