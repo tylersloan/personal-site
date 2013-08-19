@@ -4,134 +4,165 @@ title: Tyler Sloan | Home
 
 .header
   .logo
-    h1 The Desk of Tyler Sloan
+    h3 Tyler Graham Sloan
+    / object data="images/signature.svg" type="image/svg+xml"
+    /   a href="signature.svg"
+    /   <!-- fallback -->
+    /   img src="images/signature.png" alt="Tyler Sloan"
   .navigation
     ul
       li
-        a href="#0" About
+        a href="#recent-work" See Work
       li
-        a href="#0" Work
-      li
-        a href="#0" Contact
+        a href="#availability" Make Contact
 .line-long
 
 .wrapper
   
   .hero
-    img src="images/mackbook-air.png"
+    img#desktop src="images/hero.png"
+    img#phone src="images/hero-vertical.png"
     .adjectives
-      h4
-        | == Front-End Engineer
-      h4
-        | &amp;&amp; Designer
-      h4
-        | === Cool Guy
+      h2
+        | <b>Hi.</b> I'm a front-end engineer with designer chops. &amp;&amp;, I'm an all-round cool dude.
 
   .line-short
 
   .container
 
-    h3#recent-work Recent Work
+    section
+      h3#recent-work Recent Work
 
-    .wmuSlider
+      .wmuSlider
 
-      .wmuSliderWrapper
+        .wmuSliderWrapper
 
-        article#example-1
-          img.computer-screen src="images/MacBook-air-big.png"
-          iframe name='quickcast' src='http://quick.as/embed/mkksma' scrolling='no' frameborder='0' width='50%' 
-          javascript:
-            !function(){function n(){var n=document.getElementsByName('quickcast')
-              for(var e in n){var t=n[e].offsetWidth
-              n[e].height=t/1.60+'px'}}n(),window.onresize=n,window.addEventListener('message',function(n){if(n.data.indexOf('//quick.as/') != -1)window.location.href=n.data},!1)}()
+          article#example-1
+            img.computer-screen src="images/MacBook-air-big.png"
+            / iframe name='quickcast' src='http://quick.as/embed/mkksma' scrolling='no' frameborder='0' width='40.65%' height="331px"
+            javascript:
+              !function(){function n(){var n=document.getElementsByName('quickcast')
+                for(var e in n){var t=n[e].offsetWidth
+                n[e].height=t/1.60+'px'}}n(),window.onresize=n,window.addEventListener('message',function(n){if(n.data.indexOf('//quick.as/') != -1)window.location.href=n.data},!1)}()
 
-          .project-details
-            h2 Batchmaker
-            i.icon-long-arrow-right
-            p Batchmaker is an open-source project that I began earlier this year. It is a web app that hosts all of your own recipes. You can keep them top-secret or share them with your friends. It also empowers you to adjust the recipe's yield easily, on the fly.
-            h5 Technologies Used
-            ul
-              li
-                i.icon-li.icon-chevron-sign-right
-                | UX &amp; UI Design
-              li
-                i.icon-li.icon-chevron-sign-right
-                | All Front-End Engineering
-              li
-                i.icon-li.icon-chevron-sign-right
-                | Responsive Development
-            ul
-              li
-                i.icon-li.icon-chevron-sign-right
-                | Backbone &amp; Underscore
-              li
-                i.icon-li.icon-chevron-sign-right
-                | jQuery
-              li
-                i.icon-li.icon-chevron-sign-right
-                | Rails
+            .project-details
+              a href="/batchmaker/index.html"
+                h3 Batchmaker
+                i.icon-long-arrow-right
+              p Batchmaker is an open-source project that I began earlier this year. It is a web app that hosts all of your own recipes. You can keep them top-secret or share them with your friends. It also empowers you to adjust the recipe's yield easily, on the fly.
+              h5 Technologies Used
+              ul
+                li
+                  i.icon-li.icon-chevron-sign-right
+                  | UX &amp; UI Design
+                li
+                  i.icon-li.icon-chevron-sign-right
+                  | Front-End Engineering
+                li
+                  i.icon-li.icon-chevron-sign-right
+                  | Responsive Dev.
+              ul
+                li
+                  i.icon-li.icon-chevron-sign-right
+                  | Backbone &amp; Underscore
+                li
+                  i.icon-li.icon-chevron-sign-right
+                  | jQuery
+                li
+                  i.icon-li.icon-chevron-sign-right
+                  | Rails
 
-        article#example-2
-          img.computer-screen src="images/MacBook-air-big.png"
+          article#example-2
+            img.computer-screen src="images/MacBook-air-big.png"
 
-          .project-details
-            h2 Tara-Leigh Cobble
-            i.icon-long-arrow-right
-            p
-              | Singer, song-writer, and speaker, Tara-Leigh Cobble, released a new album this year&mdash;Come Back soon. I had the pleasure of doing the artwork for it. Along with that, I created a beautiful one-page site including links to her products and downloadables for promoters' use in anticipation for her upcoming 2013-14 nationwide tour. 
-              a.effeckt-tooltip-1 data-effeckt-tooltip-text="External link to see the page in action." href="http://pk.taraleighcobble.com"
-                i.icon-link
+            .project-details
+              a href="/comebacksoon"
+                h3 Tara-Leigh Cobble
+                i.icon-long-arrow-right
+              p
+                | Singer, song-writer, and speaker, Tara-Leigh Cobble, released a new album this year&mdash;Come Back soon. I had the pleasure of doing the artwork for it. Along with that, I created a beautiful one-page site including links to her products and downloadables for promoters' use in anticipation for her upcoming 2013-14 nationwide tour. <br>
+                a.effeckt-tooltip-1 data-effeckt-tooltip-text="See the page in action." href="http://pk.taraleighcobble.com"
+                  i.icon-link
 
-            h5 Responsibilities
-            ul
-              li
-                i.icon-li.icon-chevron-sign-right
-                | Web Design
-              li
-                i.icon-li.icon-chevron-sign-right
-                | Graphic Design
-            ul
-              li
-                i.icon-li.icon-chevron-sign-right
-                | Front-End Development
-              li
-                i.icon-li.icon-chevron-sign-right
-                | Responsive Development
-
-    .line-short
+              h5 Responsibilities
+              ul
+                li
+                  i.icon-li.icon-chevron-sign-right
+                  | Web Design
+                li
+                  i.icon-li.icon-chevron-sign-right
+                  | Graphic Design
+              ul
+                li
+                  i.icon-li.icon-chevron-sign-right
+                  | Front-End Development
+                li
+                  i.icon-li.icon-chevron-sign-right
+                  | Responsive Dev.
     
-    h3 Fine Folks I've Worked With
+      .more
+        a href="#recent-projects"
+          i.icon-double-angle-down
+    
+      #recent-projects
+        h3 Recent Projects
 
-    .other-clients
+        .other-clients
 
-      ul
+          .client
+            .client-imagery
+              img src="images/work/batch-logo.png"
+          .client
+            .client-imagery
+              img src="images/work/tlc-logo.png"
         
-        li
-          img src="images/work/bof-logo.png"
-          / p Brains on Fire
+      #clients
+        h3 Past Clients
+
+        .other-clients
+
+          .client
+            .client-imagery
+              img src="images/work/bof-logo.png"
+            h5 Brains on Fire
+            .line-title
+            p I was honored to be asked by identity company, Brains on Fire, to help code the case study pages on their new site.
+            p.date August, 2013
+
+          .client
+            .client-imagery
+              img src="images/work/tiy-logo.png"
+            h5 The Iron Yard
+            .line-title
+            p I love The Iron Yard and everything they do in Upstate South Carolina and beyond. When asked if I'd like to design their new coworking and academy sections of their site, I said "Yes!".
+            p.date Summer, 2013
+          
+          .client
+            .client-imagery
+              img src="images/work/hoi-logo.png"
+            h5 House of Israel
+            .line-title
+            p House of Israel is a non-profit organization on a mission to restore lives and families in their community. I created a new brand, including print collateral, that enabled them to present themselves as a place of love and hope among seemingly apathetic government entities.
+            p.date April, 2013
+          
+          .client.omega
+            .client-imagery
+              img src="images/work/nhcc-logo.png"
+            h5 North Hills
+            .line-title
+            p At North Hills, I was able to take a lot of hard work done by pro-designer Marco Suarez and build upon it.
+            p.date 2012
         
-        li
-          img src="images/work/tiy-logo.png"
-          / p The Iron Yard
-        
-        li
-          img src="images/work/hoi-logo.png"
-          / p House of Israel
-        
-        li
-          img src="images/work/nhcc-logo.png"
-          / p North Hills Community Church
-        
-        li
-          h5 I am currently accepting work and able to begin September 1
-          button.interested
-            | Interested?
+    .availability#availability
+      | I am currently available for hire to meet all of your web app engineering and site development needs, beginning in early September 
+    .email-me
+      <a href="mailto:tyler@tylersloan.us?Subject=Hey, Tyler...">Email Me</a>
 
 javascript:
   var options = {
     navigationControl: false,
     animation: 'slide',
     slideshow: true,
-    slideshowSpeed: 8000
+    slideshowSpeed: 12500
   }
   $(".wmuSlider").wmuSlider(options);

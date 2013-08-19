@@ -11,7 +11,7 @@
   transform: translateY(50%);
   left: 155%;
   border-radius: 10px;
-  background: orange;
+  background: rgb(255, 228, 87);
   color: white;
   padding: 0.45rem 0.8rem;
   font-size: 90%;
@@ -21,7 +21,7 @@
   content: "";
   width: 0;
   height: 0;
-  border-right: 5px solid orange;
+  border-right: 5px solid rgb(255, 228, 87);
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
   position: absolute;

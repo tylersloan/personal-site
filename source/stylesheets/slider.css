@@ -1,45 +1,46 @@
 .wmuSlider,
-        .wmuGallery {
-            margin-bottom: 20px;
-        }
+.wmuGallery {
+    margin-bottom: 20px;
+}
 
-        /* mwuSlider */
-        .wmuSlider {
-            position: relative;
-            overflow: hidden;
-            height: 468px;
-            border-top: 1px solid white;
-        }
-        .wmuSlider .wmuSliderWrapper {
-            /*display: none;*/
-        }
-        .wmuSlider .wmuSliderWrapper article {
-            position: relative;
-            height: 468px;
-        }
+/* mwuSlider */
+.wmuSlider {
+    position: relative;
+    padding: 1% 0;
+    margin-bottom: 10%;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+}
+.wmuSlider .wmuSliderWrapper {
+    /*display: none;*/
+}
+.wmuSlider .wmuSliderWrapper article {
+    position: relative;
+    height: 468px;
+}
 
-        
-        .wmuSliderPagination {
-            z-index: 1000;
-            position: absolute;
-            left: 96%;
-            bottom: -17px;
-            padding: 10px 0px 0 10px;
-        }
-        .wmuSliderPagination li {
-            float: left;
-            margin: 0 5px 0 0;
-            list-style-type: none;
-        }
-        .wmuSliderPagination a {
-            display: block;
-            text-indent: -9999px;
-            width: 10px;
-            height: 10px;
-            border-radius: 5px;
-            background-color: black;
-        }
-        .wmuSliderPagination a.wmuActive {
-            background-position: -10px -80px;
-            background-color: white;
-        }
+
+.wmuSliderPagination {
+    z-index: 1000;
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    padding: 10px 0px 0 10px;
+}
+.wmuSliderPagination li {
+    float: left;
+    margin: 0 5px 0 0;
+    list-style-type: none;
+}
+.wmuSliderPagination a {
+    display: block;
+    text-indent: -9999px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 228, 87,.5);
+}
+.wmuSliderPagination a.wmuActive {
+    background-position: -10px -80px;
+    background-color: rgb(255, 228, 87);
+}
