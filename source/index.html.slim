@@ -4,142 +4,164 @@ title: Tyler Sloan | Home
 
 .header
   .logo
-    h3 Tyler Graham Sloan
-    / object data="images/signature.svg" type="image/svg+xml"
-    /   a href="signature.svg"
-    /   <!-- fallback -->
-    /   img src="images/signature.png" alt="Tyler Sloan"
+    a href="../index.html"
+      h3#js-name Tyler Graham Sloan
   .navigation
     ul
       li
         a href="#recent-work" See Work
       li
-        a href="#availability" Make Contact
+        | /
+      li
+        a href="#availability"
+          | I'm Available
 .line-long
 
 .wrapper
   
   .hero
     img#desktop src="images/hero.png"
-    img#phone src="images/hero-vertical.png"
     .adjectives
-      h2
-        | <b>Hi.</b> I'm a front-end engineer with designer chops. &amp;&amp;, I'm an all-round cool dude.
+      h2#js-saying
+        | Hi. I'm a front-end engineer with designer chops. &amp;&amp;, some say I'm a pretty cool dude.
 
   .line-short
 
-  .container
+  .container#recent-work
 
     section
-      h3#recent-work Recent Work
+      #js-recent-work
+        h3 Recent Work
 
-      .wmuSlider
+        .wmuSlider
 
-        .wmuSliderWrapper
+          .wmuSliderWrapper
 
-          article#example-1
-            img.computer-screen src="images/MacBook-air-big.png"
-            / iframe name='quickcast' src='http://quick.as/embed/mkksma' scrolling='no' frameborder='0' width='40.65%' height="331px"
-            javascript:
-              !function(){function n(){var n=document.getElementsByName('quickcast')
-                for(var e in n){var t=n[e].offsetWidth
-                n[e].height=t/1.60+'px'}}n(),window.onresize=n,window.addEventListener('message',function(n){if(n.data.indexOf('//quick.as/') != -1)window.location.href=n.data},!1)}()
+            article#example-1
+              img.computer-screen src="images/love146-air.png"
 
-            .project-details
-              a href="/batchmaker/index.html"
-                h3 Batchmaker
-                i.icon-long-arrow-right
-              p Batchmaker is an open-source project that I began earlier this year. It is a web app that hosts all of your own recipes. You can keep them top-secret or share them with your friends. It also empowers you to adjust the recipe's yield easily, on the fly.
-              h5 Technologies Used
-              ul
-                li
-                  i.icon-li.icon-chevron-sign-right
-                  | UX &amp; UI Design
-                li
-                  i.icon-li.icon-chevron-sign-right
-                  | Front-End Engineering
-                li
-                  i.icon-li.icon-chevron-sign-right
-                  | Responsive Dev.
-              ul
-                li
-                  i.icon-li.icon-chevron-sign-right
-                  | Backbone &amp; Underscore
-                li
-                  i.icon-li.icon-chevron-sign-right
-                  | jQuery
-                li
-                  i.icon-li.icon-chevron-sign-right
-                  | Rails
+              .project-details
+                a href="projects/brainsonfire/"
+                  h3 Brains on Fire
+                  i.icon-long-arrow-right
+                p Top-notch identity company, Brains on Fire is launching a new site. I built their case study pages to show off their past work. Brains does great work that focuses on people and the story that their branding helps create. These case study pages show off all the good that comes from the sound brand they provide to their clients.
+                h5 Tasks &amp; Tools
+                ul
+                  li
+                    i.icon-li.icon-chevron-sign-right
+                    | Front-End Dev
+                  li
+                    i.icon-li.icon-chevron-sign-right
+                    | JS with jQuery
+                ul
+                  li
+                    i.icon-li.icon-chevron-sign-right
+                    | HTML5 &amp; CSS3
+                  li
+                    i.icon-li.icon-chevron-sign-right
+                    | Responsive CSS
+            
+            article#example-1
+              img.computer-screen src="images/batchmaker-air.png"
 
-          article#example-2
-            img.computer-screen src="images/MacBook-air-big.png"
+              .project-details
+                a href="projects/batchmaker/"
+                  h3 Batchmaker
+                  i.icon-long-arrow-right
+                p Batchmaker is an open-source project that I began earlier this year. It is a web app that hosts all of your own recipes. You can keep them top-secret or share them with your friends. It also empowers you to adjust the recipe's yield easily, on the fly.
+                h5 Tasks &amp; Tools
+                ul
+                  li
+                    i.icon-li.icon-chevron-sign-right
+                    | UX &amp; UI Design
+                  li
+                    i.icon-li.icon-chevron-sign-right
+                    | Front-End Dev
+                  li
+                    i.icon-li.icon-chevron-sign-right
+                    | Responsive CSS
+                ul
+                  li
+                    i.icon-li.icon-chevron-sign-right
+                    | Backbone &amp; _.js
+                  li
+                    i.icon-li.icon-chevron-sign-right
+                    | jQuery
+                  li
+                    i.icon-li.icon-chevron-sign-right
+                    | Rails
 
-            .project-details
-              a href="/comebacksoon"
-                h3 Tara-Leigh Cobble
-                i.icon-long-arrow-right
-              p
-                | Singer, song-writer, and speaker, Tara-Leigh Cobble, released a new album this year&mdash;Come Back soon. I had the pleasure of doing the artwork for it. Along with that, I created a beautiful one-page site including links to her products and downloadables for promoters' use in anticipation for her upcoming 2013-14 nationwide tour. <br>
-                a.effeckt-tooltip-1 data-effeckt-tooltip-text="See the page in action." href="http://pk.taraleighcobble.com"
-                  i.icon-link
+            article#example-2
+              img.computer-screen src="images/tlc-air.png"
 
-              h5 Responsibilities
-              ul
-                li
-                  i.icon-li.icon-chevron-sign-right
-                  | Web Design
-                li
-                  i.icon-li.icon-chevron-sign-right
-                  | Graphic Design
-              ul
-                li
-                  i.icon-li.icon-chevron-sign-right
-                  | Front-End Development
-                li
-                  i.icon-li.icon-chevron-sign-right
-                  | Responsive Dev.
+              .project-details
+                a href="projects/taraleighcobble"
+                  h3 Tara-Leigh Cobble
+                  i.icon-long-arrow-right
+                p
+                  | Singer, song-writer, and speeker, Tara-Leigh Cobble, released a new album this year&mdash;Come Back soon. I had the pleasure of doing the artwork for it. Along with that, I created a beautiful one-page site including links to her products and downloadables for promoters' use in anticipation for her upcoming 2013-14 nationwide tour.
+
+                h5 Tasks &amp; Tools
+                ul
+                  li
+                    i.icon-li.icon-chevron-sign-right
+                    | Web Design
+                  li
+                    i.icon-li.icon-chevron-sign-right
+                    | Graphic Design
+                ul
+                  li
+                    i.icon-li.icon-chevron-sign-right
+                    | Front-End Dev
+                  li
+                    i.icon-li.icon-chevron-sign-right
+                    | Responsive CSS
     
       .more
-        a href="#recent-projects"
+        a
           i.icon-double-angle-down
     
       #recent-projects
-        h3 Recent Projects
+        h3 Current Projects
 
         .other-clients
 
           .client
             .client-imagery
-              img src="images/work/batch-logo.png"
+              a href="projects/batchmaker"
+                img src="images/work/batch-logo.png"
           .client
             .client-imagery
-              img src="images/work/tlc-logo.png"
+              a href="projects/brainsonfire"
+                img src="images/work/bof-logo.png"
         
       #clients
-        h3 Past Clients
+        h3 Favorite Clients
 
         .other-clients
 
           .client
             .client-imagery
-              img src="images/work/bof-logo.png"
-            h5 Brains on Fire
-            .line-title
-            p I was honored to be asked by identity company, Brains on Fire, to help code the case study pages on their new site.
-            p.date August, 2013
-
-          .client
-            .client-imagery
-              img src="images/work/tiy-logo.png"
+              a href="projects/theironyard"
+                img src="images/work/tiy-logo.png"
             h5 The Iron Yard
             .line-title
             p I love The Iron Yard and everything they do in Upstate South Carolina and beyond. When asked if I'd like to design their new coworking and academy sections of their site, I said "Yes!".
             p.date Summer, 2013
+
+          .client
+            .client-imagery
+              a href="projects/taraleighcobble"
+                img src="images/work/tlc-logo.png"
+            h5 Tara-Leigh Cobble
+            .line-title
+            p Singer, song-writer, and speeker, Tara-Leigh Cobble, released a new album this year&mdash;Come Back soon. I had the pleasure of doing the artwork for it and designed / developed a single-pager press kit.
+            p.date July, 2013
           
           .client
             .client-imagery
-              img src="images/work/hoi-logo.png"
+              a href="projects/houseofisrael"
+                img src="images/work/hoi-logo.png"
             h5 House of Israel
             .line-title
             p House of Israel is a non-profit organization on a mission to restore lives and families in their community. I created a new brand, including print collateral, that enabled them to present themselves as a place of love and hope among seemingly apathetic government entities.
@@ -147,18 +169,24 @@ title: Tyler Sloan | Home
           
           .client.omega
             .client-imagery
-              img src="images/work/nhcc-logo.png"
+              a href="projects/northhills"
+                img src="images/work/nhcc-logo.png"
             h5 North Hills
             .line-title
             p At North Hills, I was able to take a lot of hard work done by pro-designer Marco Suarez and build upon it.
             p.date 2012
-        
-    .availability#availability
-      | I am currently available for hire to meet all of your web app engineering and site development needs, beginning in early September 
+
+        a href="all-projects"
+          h5#see-all See All Clients
+    
+  .availability#availability
+    | I am currently available for hire. I will meet all your front-end web needs, from simple site design/development to complex web application engineering. Beginning late September.
     .email-me
       <a href="mailto:tyler@tylersloan.us?Subject=Hey, Tyler...">Email Me</a>
 
 javascript:
+  $("#js-saying").fitText(2, { minFontSize: '19px', maxFontSize: '58px' })
+
   var options = {
     navigationControl: false,
     animation: 'slide',

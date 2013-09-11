@@ -1,0 +1,471 @@
+$c-batchmaker: #416E5B;
+$c-cbs: #2F4B6F;
+$c-brainsonfire: #F04B50;
+$c-hoi: #7F3F98;
+$c-theironyard: #a86c26;
+$c-nhcc: #A93520;
+
+
+i.icon-long-arrow-left#nav, i.icon-long-arrow-right#nav {
+  position: fixed;
+  padding: 0 1.5%;
+  top: 210px;
+  color: white;
+  font-size: 2em;
+  transition: 250ms all ease;
+  
+  &.batchmaker-arrow {
+    background-color: lighten($c-batchmaker, 55%);
+  }
+
+  &.batchmaker-arrow:hover, &.batchmaker-arrow:focus {
+    background-color: $c-batchmaker;
+  }
+
+  &.cbs-arrow {
+    background-color: lighten($c-cbs, 55%);
+  }
+
+  &.cbs-arrow:hover, &.cbs-arrow:focus {
+    background-color: $c-cbs;
+  }
+
+  &.brainsonfire-arrow {
+    background-color: lighten($c-brainsonfire, 15%);
+  }
+
+  &.brainsonfire-arrow:hover, &.brainsonfire-arrow:focus {
+    background-color: $c-brainsonfire;
+  }
+
+  &.theironyard-arrow {
+    background-color: lighten($c-theironyard, 35%);
+  }
+
+  &.theironyard-arrow:hover, &.theironyard-arrow:focus {
+    background-color: $c-theironyard;
+  }
+
+  &.hoi-arrow {
+    background-color: lighten($c-hoi, 35%);
+  }
+
+  &.hoi-arrow:hover, &.hoi-arrow:focus {
+    background-color: $c-hoi;
+  }
+
+  &.nhcc-arrow {
+    background-color: lighten($c-nhcc, 35%);
+  }
+
+  &.nhcc-arrow:hover, &.nhcc-arrow:focus {
+    background-color: $c-nhcc;
+  }
+
+}
+
+// i.icon-long-arrow-left#nav:hover, i.icon-long-arrow-left#nav:focus,
+// i.icon-long-arrow-right#nav:hover, i.icon-long-arrow-right#nav:focus {
+//   background-color: rgba(118, 199, 166,1);
+// }
+
+i.icon-long-arrow-left#nav:hover, i.icon-long-arrow-left#nav:focus {
+  padding-left: 4%;
+}
+
+i.icon-long-arrow-right#nav:hover, i.icon-long-arrow-right#nav:focus {
+  padding-right: 4%;
+}
+
+i.icon-long-arrow-left#nav {
+  left: 0;
+  padding-right: 1%;
+}
+
+i.icon-long-arrow-right#nav {
+  right: 0;
+  padding-left: 1%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.project-header {
+  max-width: 550px;
+  width: 38.044%;
+  margin: 0 auto 0 auto;
+  padding: 6% 0 3.5% 0;
+  background: white;
+  text-align: center;
+  font-family: "futura-pt",sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-right: 6px double whitesmoke;
+  border-bottom: 6px double whitesmoke;
+  border-left: 6px double whitesmoke;
+
+  img {
+    max-width: 80px;
+  }
+
+  .title {
+    width: 85%;
+    margin: 0 auto;
+    padding: 5% 0;
+    font-size: 3.5em;
+    line-height: .95;
+    border-bottom: 2px dotted #CCC;
+    
+
+    &#batchmaker-title {
+      color: $c-batchmaker;
+    }
+
+    &#tlc-title {
+      color: $c-cbs;
+    }
+
+    &#brainsonfire-title {
+      color: $c-brainsonfire;
+    }
+
+    &#theironyard-title {
+      color: $c-theironyard;
+    }
+
+    &#hoi-title {
+      color: $c-hoi;
+    }
+
+    &#nhcc-title {
+      color: $c-nhcc;
+    }
+  }
+
+  ul {
+    padding: .5% 0 0 0;
+  }
+
+  li {
+    display: inline-block;
+    font-size: 1em;
+
+    &.date {
+      color: #999;
+      margin: 0 2.5% 0 auto;
+    }
+
+    &.duties {
+      color: #999;
+      margin: 0 auto 0 2.5%;
+    }
+
+    &#batchmaker-li {
+      color: $c-batchmaker;
+    }
+
+    &#cbs-li {
+      color: lighten($c-cbs, 30%);
+    }
+
+    &#brainsonfire-li {
+      color: lighten($c-brainsonfire, 15%);
+    }
+
+    &#theironyard-li {
+      color: lighten($c-theironyard, 30%);
+    }
+
+    &#hoi-li {
+      color: lighten($c-hoi, 30%);
+    }
+
+    &#nhcc-li {
+      color: lighten($c-nhcc, 30%);
+    }
+  }
+}
+
+.wide-wrapper {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 1340px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 4.5% 4.5% 4.5%;
+  text-align: center;
+
+  img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    &.devices {
+      max-width: 928px;
+    }
+
+    &.print-material {
+      max-width: 696px;
+    }
+
+    &.nhcc-material {
+      display: inline-block;
+      max-width: 550px;
+    }
+  }
+}
+
+.large-peeks {
+  display: inline-block;
+  width: 47%;
+  height: auto;
+  margin: 0 1% 2.5% 1%;
+  border: 5px solid white;
+  vertical-align: top;
+
+  &#tiy {
+    cursor: pointer;
+  }
+}
+
+.see-more {
+  width: 100%;
+  margin: 2% auto 5% auto;
+  padding: 0 0 .5% 0;
+  text-align: center;
+
+  h5 {
+    padding: 2%;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+    opacity: 1;
+
+    a, a:visited {
+      text-decoration: none;
+      color: white;
+    }
+
+    a:hover, a:focus {
+      opacity: .8;
+    }
+    
+    &#bof-see-more {
+      padding: 2% 2% .5% 2%;
+      background-color: #333;
+    }
+
+    &#cbs-see-more {
+      background-color: lighten($c-cbs, 15%);
+    }
+
+    &#tiy-see-more {
+      padding: 2% 2% .5% 2%;
+      background-color: #20a3db;
+    }
+  }
+
+  h5:hover, h5:focus {
+    opacity: .8;
+    cursor: pointer;
+  }
+}
+
+.icon-arrow-down {
+
+  &.expand {
+    line-height: 35px;
+  }
+}
+
+.content {
+  max-width: 850px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 5% 0 10% 0;
+  text-align: left;
+
+  p {
+    
+    &#batchmaker-p {
+      color: $c-batchmaker;
+    }
+
+    &#cbs-p {
+      color: $c-cbs;
+    }
+
+    &#brainsonfire-p {
+      color: $c-brainsonfire;
+    }
+
+    &#theironyard-p {
+      color: $c-theironyard;
+    }
+
+    &#hoi-p {
+      color: $c-hoi;
+    }
+
+    &#nhcc-p {
+      color: $c-nhcc;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .project-header {
+    width: 88%;
+
+    .title {
+      font-size: 2em;
+    }
+
+    li {
+      font-size: .85em;
+    }
+  }
+
+  .content {
+    width: 90%;
+  }
+
+  .large-peeks {
+    width: 90%;
+    max-height: 450px;
+    margin-bottom: 5%;
+    overflow: hidden;
+  }
+
+  .see-more {
+
+    h5 {
+      font-size: 11px;
+      background-color: none;
+      background: none;
+      color: #333;
+      line-height: 0;
+      
+      &#bof-see-more {
+        padding: 0 7% 1% 7%;
+        font-weight: 300;
+        background-color: none;
+        background: none;
+      }
+
+      &#cbs-see-more {
+        background-color: none;
+        background: none;
+      }
+
+      &#tiy-see-more {
+        padding: 0 7% 1% 7%;
+        font-weight: 300;
+        background-color: none;
+        background: none;
+      }
+    }
+  }
+
+  .icon-arrow-down {
+
+    &.expand {
+      line-height: 35px;
+    }
+  }
+  
+}
+
+@media screen and (max-width: 320px) {
+
+  .project-header {
+    width: 90%;
+    margin: 40px auto 0 auto;
+    border-top: 6px double whitesmoke;
+  }
+
+  i.icon-long-arrow-left#nav, i.icon-long-arrow-right#nav {
+    position: inherit;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: none;
+    
+    &.batchmaker-arrow {
+      background-color: transparent;
+      color: $c-batchmaker;
+    }
+
+    &.batchmaker-arrow:hover, &.batchmaker-arrow:focus {
+      background-color: transparent;
+      color: $c-batchmaker;
+    }
+
+    &.cbs-arrow {
+      background-color: transparent;
+      color: $c-cbs;
+    }
+
+    &.cbs-arrow:hover, &.cbs-arrow:focus {
+      background-color: transparent;
+      color: $c-cbs;
+    }
+
+    &.brainsonfire-arrow {
+      background-color: transparent;
+      color: $c-brainsonfire;
+    }
+
+    &.brainsonfire-arrow:hover, &.brainsonfire-arrow:focus {
+      background-color: transparent;
+      color: $c-brainsonfire;
+    }
+
+    &.theironyard-arrow {
+      background-color: transparent;
+      color: $c-theironyard;
+    }
+
+    &.theironyard-arrow:hover, &.theironyard-arrow:focus {
+      background-color: transparent;
+      color: $c-theironyard;
+    }
+
+    &.hoi-arrow {
+      background-color: transparent;
+      color: $c-hoi;
+    }
+
+    &.hoi-arrow:hover, &.hoi-arrow:focus {
+      background-color: transparent;
+      color: $c-hoi;
+    }
+
+    &.nhcc-arrow {
+      background-color: transparent;
+      color: $c-nhcc;
+    }
+
+    &.nhcc-arrow:hover, &.nhcc-arrow:focus {
+      background-color: transparent;
+      color: $c-nhcc;
+    }
+  }
+
+  i.icon-long-arrow-left#nav {
+    text-align: left;
+    margin-left: 5%;
+    float: left;
+  }
+
+  i.icon-long-arrow-right#nav {
+    text-align: right;
+    margin-right: 5%;
+    float: right;
+  }
+}

@@ -1,0 +1,58 @@
+---
+title: Projects | The Iron Yard
+---
+
+.header
+  .logo
+    a href="../index.html"
+      h3#js-name Tyler Graham Sloan
+  .navigation
+    ul
+      li
+        a href="../all-projects" All Projects
+      li
+        | /
+      li
+        a href="#footer" Contact Options
+.line-long
+
+a href="/projects/taraleighcobble"
+  i.icon-long-arrow-left#nav.theironyard-arrow
+a href="/projects/houseofisrael"
+  i.icon-long-arrow-right#nav.theironyard-arrow
+.project-header
+
+  
+  img src="/images/theironyard/tiy-logo-mark.png"
+  .title#theironyard-title The Iron Yard
+  .project-meta-data
+    ul
+      li.date Spring 2013
+      li#theironyard-li
+        | /
+      li.duties Design &amp; Development
+
+.wide-wrapper
+  .content
+    p#theironyard-p I wouldn't be where I am today, professionaly, if it weren't for The Iron Yard and the team it's made of. They are a class act, and Greenville is lucky to have them. As the organization is gaining steam, so is their website. I was a part of a group of several people who redesigned and developed the new site. On the Academy and Cowork pages, I was able to take a basic layout and existing content and turn them into something that shows off the caliber of The Iron Yard's entities.
+
+  .large-peeks#tiy
+    img src="../images/theironyard/academy.jpg"
+  / .see-more
+  /   h5#tiy-see-more
+  /     | Click here to expand
+  /     br
+  /     .icon-arrow-down.expand
+  .large-peeks#tiy
+    img src="../images/theironyard/cowork.jpg"
+  / .see-more
+  /   h5#tiy-see-more
+  /     | Click here to expand
+  /     br
+  /     .icon-arrow-down.expand
+
+  javascript:
+    $(".large-peeks").click(function() {
+      $(".large-peeks").css("width", "8%");
+      $(this).css("width", "80%").scrollTo("body")
+    })

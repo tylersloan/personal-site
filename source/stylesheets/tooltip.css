@@ -11,7 +11,7 @@
   transform: translateY(50%);
   left: 155%;
   border-radius: 10px;
-  background: rgb(255, 228, 87);
+  background: #111b27;
   color: white;
   padding: 0.45rem 0.8rem;
   font-size: 90%;
@@ -21,16 +21,16 @@
   content: "";
   width: 0;
   height: 0;
-  border-right: 5px solid rgb(255, 228, 87);
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
+  border-right: 6px solid #111b27;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
   position: absolute;
-  top: 125%;
-  margin-top: -21px;
-  left: 75%;
-  margin-left: 8px; }
+  top: 116%;
+  margin-top: -18px;
+  left: 77%;
+  margin-left: 9px; }
 .effeckt-tooltip-1[data-effeckt-tooltip-text]:hover::before, .effeckt-tooltip-1[data-effeckt-tooltip-text]:hover::after {
   visibility: visible;
   opacity: 1;
-  bottom: 47%;
+  bottom: 20%;
   transition: 0.1s 0.1s; }
